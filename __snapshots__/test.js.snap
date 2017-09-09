@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+"{
+  data: {
+    ranking: [
+      {
+        title: String
+        id: Number
+        imageUrls: {
+          medium: String
+          large: String
+        }
+      }
+    ]
+  }
+}"
+`;
