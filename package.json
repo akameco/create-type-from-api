@@ -1,6 +1,6 @@
 {
   "name": "create-type-from-api",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "create JSON structure from API request",
   "license": "MIT",
   "repository": "akameco/create-type-from-api",
@@ -19,8 +19,17 @@
     "test:watch": "jest --watch"
   },
   "bin": "cli.js",
-  "files": ["index.js", "cli.js"],
-  "keywords": ["type", "graphql", "scheme", "api", "create"],
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "type",
+    "graphql",
+    "scheme",
+    "api",
+    "create"
+  ],
   "dependencies": {
     "axios": "^0.16.2",
     "meow": "^3.7.0",
